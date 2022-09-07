@@ -1,7 +1,20 @@
 header {
     img {
         height: 80px;
+    }
+    
+    .header-top{
+        background-color: $brand_primary_color;
+        .container-top{
+            width: 85%;
+            text-align: end;
 
+            span{
+                padding-right: 5px;
+                font-size: 12px;
+                color: white;
+            }
+        }
     }
 
     .container {
@@ -35,6 +48,14 @@ header {
         }
     }
 
+    .btn{
+        background-color: $brand_primary_color;
+        padding: 10px;
+        border-radius: 7px;
+        color: white;
+        cursor: pointer;
+    }
+    
     .jumbotron {
         position: relative;
         height: 500px;

@@ -1,5 +1,11 @@
 <header>
     <!-- Header logo -->
+    <div class="header-top">
+        <div class="container-top">
+            <span>DC POWER VISA</span>
+            <span>ADDICTIONAL DC SITES</span>
+        </div>
+    </div>
 
     <div class="container">
         <div class="logo">
@@ -13,7 +19,7 @@
                     <a href="#">CHARACTERS</a>
                 </li>
 
-                <li>
+                <li class="current">
                     <a href="#">COMICS</a>
                 </li>
 
@@ -50,6 +56,11 @@
                 </li>
             </ul>
         </nav>
+
+        <div class="btn">
+            search
+        </div>
+
     </div>
 
     <section class="jumbotron">

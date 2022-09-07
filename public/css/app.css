@@ -28,6 +28,21 @@ header img {
     height: 80px;
 }
 
+header .header-top {
+    background-color: #0282f9;
+}
+
+header .header-top .container-top {
+    width: 85%;
+    text-align: end;
+}
+
+header .header-top .container-top span {
+    padding-right: 5px;
+    font-size: 12px;
+    color: white;
+}
+
 header .container {
     display: flex;
     justify-content: space-between;
@@ -56,6 +71,14 @@ header li a {
 header li.current {
     color: #0282f9;
     border-bottom: 8px solid #0282f9;
+}
+
+header .btn {
+    background-color: #0282f9;
+    padding: 10px;
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
 }
 
 header .jumbotron {
@@ -120,6 +143,35 @@ header .jumbotron img {
     text-align: center;
     font-weight: bolder;
     background-color: #0282f9;
+}
+
+.merch {
+    background-color: #0282f9;
+}
+
+.container-merch {
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-merch span {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.container-merch span img {
+    width: 40px;
+    height: 55px;
+}
+
+.container-merch span a {
+    font-size: 14px;
+    text-align: center;
+    padding-left: 10px;
+    color: white;
+    text-decoration: none;
 }
 
 .footer-top {
