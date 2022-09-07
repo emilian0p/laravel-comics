@@ -1,0 +1,50 @@
+header {
+    img {
+        height: 80px;
+
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    nav {
+        height: 100%;
+    }
+
+    .menu {
+        display: flex;
+        line-height: 100px;
+    }
+
+    li {
+        padding: 0 10px;
+        color: #606d77;
+
+        a {
+            font-size: 12px;
+            font-weight: bolder;
+        }
+
+        &.current {
+            color: $brand_primary_color;
+            border-bottom: 8px solid $brand_primary_color;
+        }
+    }
+
+    .jumbotron {
+        position: relative;
+        height: 500px;
+        width: 100%;
+
+        img {
+            height: 100%;
+            object-fit: cover;
+            object-position: top;
+            width: 100%;
+        }
+    }
+}

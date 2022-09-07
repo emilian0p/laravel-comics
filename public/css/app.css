@@ -1,0 +1,200 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap%27);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+header img {
+    height: 80px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    height: 100%;
+}
+
+header .menu {
+    display: flex;
+    line-height: 100px;
+}
+
+header li {
+    padding: 0 10px;
+    color: #606d77;
+}
+
+header li a {
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+header li.current {
+    color: #0282f9;
+    border-bottom: 8px solid #0282f9;
+}
+
+header .jumbotron {
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+
+header .jumbotron img {
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: top;
+    object-position: top;
+    width: 100%;
+}
+
+.comics-list {
+    padding: 30px 0;
+    background-color: #303030;
+    position: relative;
+}
+
+.comics-list .series {
+    position: absolute;
+    bottom: calc(100% - 10px - 12px);
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: #0282f9;
+    padding: 18px;
+}
+
+.comics-list .products-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.comics-list .products-list .product-card {
+    padding: 20px;
+    width: calc(16.6666666667% - 6px);
+    margin: 0 auto;
+}
+
+.comics-list .products-list .product-card img {
+    height: 190px;
+    width: 100%;
+}
+
+.comics-list .products-list .product-card h3 {
+    margin-top: 3px;
+    font-size: 13px;
+    color: white;
+}
+
+.comics-list .more {
+    width: 20%;
+    margin: 0 auto;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bolder;
+    background-color: #0282f9;
+}
+
+.footer-top {
+    background-image: url("../img/footer-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.footer-top .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-top .container .list {
+    width: 50%;
+    display: flex;
+    padding: 60px;
+}
+
+.footer-top .container .list li {
+    color: lightgrey;
+    font-size: 13px;
+    padding-bottom: 2px;
+}
+
+.footer-top .container .list li h3 {
+    font-size: 20px;
+}
+
+.footer-top .container .list ul {
+    padding-right: 40px;
+    padding-bottom: 15px;
+}
+
+.footer-top .container .bg-img {
+    background-image: url("../img/dc-logo-bg.png");
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+}
+
+.footer-bottom {
+    background-color: #303030;
+}
+
+.footer-bottom .container {
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-bottom .container .btn {
+    border: 3px solid #0282f9;
+}
+
+.footer-bottom .container .btn a {
+    padding: 15px;
+    color: white;
+    font-weight: bolder;
+    display: inline-block;
+}
+
+.footer-bottom .container .social {
+    display: flex;
+    align-items: center;
+}
+
+.footer-bottom .container .social h3 {
+    color: #0282f9;
+    padding-right: 10px;
+}
+
+.footer-bottom .container .social span {
+    padding-right: 10px;
+}
