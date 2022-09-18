@@ -11,8 +11,16 @@
         <div class="products-list">
             
             <div class="product-card">
-                <img src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX" alt="">
-                <h3>TITOLO</h3>
+                @foreach ($comics_array as $comic)
+                    <div class="col">
+                        <div class="comic-card">
+                            <a href="{{ route('single_comic', ['id' => $comic['id']]) }}">
+                                <img src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}">
+                                <h3 class="series">{{ $comic['series'] }}</h3>
+                            </a>
+                        </div>
+                    </div>
+                @endforeach
             </div>
 
         </div>
